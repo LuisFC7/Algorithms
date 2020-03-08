@@ -27,7 +27,7 @@ void principal()
 	int equation_2[1][3];
 	float af,bf,c,e,f,g;
 	
-	printf("\t\t\nEquation´s System´s 2 x 2\n");
+	printf("\t\t\nEquationÂ´s SystemÂ´s 2 x 2\n");
 	printf("\nax + by = c");
 	printf("\na'x + b'y = c'\n");
 	//First Equation

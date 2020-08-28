@@ -3,30 +3,15 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-
 void principal();
 void initial();
 void acceptation();
-
-
 int main()
 {
 	principal();
 	system("pause");
 	return 0;
 }
-
-void initial()
-{
-	printf("\n");
-}
-void second()
-{
-	printf("Chain accepted");
-	
-}
-
-
 void principal()
 {
 	int chain[10];
@@ -38,23 +23,15 @@ void principal()
 		scanf("%d",&chain[i]);	
 	}
 	
-	//cant gonna be measure lenght of chain
-	//cant = strlen(chain);
-	//printing try
-	for(i=0; i<10; i++)
-		printf("%d",chain[i]);
-		/*
-		for(cont=0; cont<10; cont++)
+	for(cont=0; cont<10; cont++)
 		{
 			if(chain[cont]==1)
 			{
-				printf("Initial");		
+				printf("Not accepted\n");		
 			}else if(chain[cont]==0)
 				{
-				printf("Accepted");
+				printf("Accepted\n");
 				}
 			
 		}
-*/
-
 }
